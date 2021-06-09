@@ -1,0 +1,19 @@
+{
+  "name": "hamed-project",
+  "version": "1.0.0",
+  "description": "starter template by hamed jafari",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Hamed Jafari",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "jquery": "^3.6.0"
+  }
+}
