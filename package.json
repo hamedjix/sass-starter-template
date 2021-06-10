@@ -4,7 +4,9 @@
   "description": "starter template by hamed jafari",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "live-server": "live-server",
+    "start": "npm-run-all --parallel compile:sass live-server"
   },
   "author": "Hamed Jafari",
   "license": "ISC",
@@ -13,7 +15,6 @@
     "node-sass": "^6.0.0"
   },
   "dependencies": {
-    "bootstrap": "^5.0.1",
-    "jquery": "^3.6.0"
+    "bootstrap": "^5.0.1"
   }
 }
